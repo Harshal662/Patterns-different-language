@@ -7,7 +7,8 @@ void printPattern(int n)
     // Print top line
     for (i = 0; i < n; i++)
     {
-        if(i==0 || i==n-1){
+        if (i == 0 || i == n - 1)
+        {
             printf(" ");
             continue;
         }
@@ -64,9 +65,9 @@ void printPattern(int n)
 
 int main()
 {
-    int n ;
+    int n;
     printf("Enter an Integer: ");
-    scanf("%d",&n);
+    scanf("%d", &n);
 
     printPattern(n);
 
